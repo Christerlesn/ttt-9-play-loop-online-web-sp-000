@@ -38,5 +38,9 @@ end
 # Define your play method below
 
 def play(board)
-puts "Hello"
+  board = 0
+  until board == 9
+    turn(board)
+    board += 1
+  end
 end
