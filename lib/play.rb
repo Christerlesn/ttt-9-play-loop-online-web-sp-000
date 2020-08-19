@@ -45,4 +45,3 @@ def play(board)
   end
 end
 
-puts play(board)
